@@ -17,6 +17,7 @@ body,html{
     height: 100vh;
     width: 100%;
     background: #ffffff;
+    position: relative;
 }
 .nav{
     background-color: #d1d1d1;
@@ -51,8 +52,15 @@ body,html{
     text-transform: capitalize;
 }
 
-.text{
-    height: 300px;
+.herovideo{
+    position: absolute;
     width: 100%;
-    background: #000;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+}
+.video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
