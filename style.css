@@ -118,3 +118,56 @@ body,html{
     font-size: 15px;
     color: #434343;
 }
+
+.charactercard{
+    background: #6375ff;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+}
+.charcterimg{
+    height: 300px;
+    position: absolute;
+    top: -30px;
+}
+.cardtext{
+    position: absolute;
+    bottom: 10px;
+}
+.cardname{
+    font-family: alice;
+    font-size: 20px;
+    color: bisque;
+}
+.cardtag{
+    display: flex;
+    font-size: 10px;
+}
+.cardbutton{
+    padding: 5px 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 0;
+    background: #82ff48;
+}
+.cardtotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.topcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.bottomcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
