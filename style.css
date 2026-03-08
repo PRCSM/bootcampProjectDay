@@ -81,3 +81,40 @@ body,html{
     font-family: alice;
     line-height: 70px;
 }
+
+.herofooter{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    text-align:right;
+}
+.foottext{
+    font-size: 17px;
+    color: #434343;
+    margin-bottom: 20px;
+}
+.footbutton{
+    padding: 20px 30px;
+    background: #ffffff;
+    border: 1px solid #434343;
+    border-radius: 20px;
+}
+
+.featurehead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 70px 0px;
+}
+.featureheading{
+    font-family: alice;
+    font-size: 50px;
+}
+.featurepara{
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+    color: #434343;
+}
